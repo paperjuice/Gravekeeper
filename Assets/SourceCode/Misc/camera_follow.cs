@@ -5,7 +5,7 @@ using UnityEngine;
 public class camera_follow : MonoBehaviour {
 
 	[SerializeField] float camera_speed;
-	[SerializeField] float _x, _y, _z = 0;
+	[SerializeField] float _x = 0, _y = 0, _z = 0;
 	GameObject mc;
 	RaycastHit _raycast;
 	float dist = 1000f;
